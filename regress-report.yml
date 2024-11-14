@@ -1,5 +1,10 @@
 ---
 test-cases:
+
+ - summary: |
+      Поиск товара по ключевому слову
+ status: fail
+ 
   - summary: |
       Проверка добавления товара в корзину 
  status: pass
