@@ -7,62 +7,62 @@ test-cases:
     Проверка работоспособности корзины
   status: pass
 
-  - summary: |
+- summary: |
       Поиск товара по категории
     status: pass
 - summary: |
     Проверка работоспособности кнопки "Продолжить покупки" в корзине
   status: pass
 
-  - summary: |
+- summary: |
       Проверка фильтрации по ключевому слову и категории одновременно
     status: fail  
   
-  - summary: |
+- summary: |
       Проверка фильтра товаров по бренду
     status: pass    
   
-  - summary: |
+- summary: |
       Проверка фильтра товаров по цене
     status: fail   
      
-  - summary: |
+- summary: |
       Проверка открытия карточки товара
     status: pass    
    
-  - summary: |
+- summary: |
       Успешное добавление товара в корзину
     status: pass    
      
-  - summary: |
+- summary: |
       Просмотр содержимого корзины
     status: pass    
   
-  - summary: |
+- summary: |
       Корректировка количества товара в корзине
     status: fail    
   
-  - summary: |
+- summary: |
       Удаление товаров из корзины
     status: pass 
   
-  - summary: |
+- summary: |
       Проверка отображения видов товаров в категориях 
     status: fail 
   
-  - summary: |
+- summary: |
       Проверка отображения брендов товаров в списке 
     status: fail 
   
-  - summary: |
+- summary: |
       Обновление страницы магазина
     status: fail 
   
-  - summary: |
+- summary: |
       Проверка адаптивности сайта для разных разных мобильных устройств
     status: fail 
   
-  - summary: |
+- summary: |
       Ввод отрицательных чисел в поля цен товаров
     status: fail 
 
@@ -130,7 +130,7 @@ test-cases:
     UX тестирование сайта
   status: fail
 
-  - summary: |
+- summary: |
       Ввод cпециальных символов в поля цен товаров
     status: fail 
 
@@ -161,6 +161,7 @@ test-cases:
 - summary: |
       Просмотр дополнительных фото товаров
     status: pass
+    
 - summary: |
     Проверка корректности работы перелистывания страниц в каталоге
   status: fail
