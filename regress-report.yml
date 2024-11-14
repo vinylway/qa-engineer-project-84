@@ -2,41 +2,57 @@
 test-cases:
   - summary: |
       Поиск товара по ключевому слову 
+    status: fail
+
+  - summary: |
+    Проверка работоспособности корзины
+  status: pass
+
+  - summary: |
+    Проверка работоспособности кнопки "Продолжить покупки" в корзине
+  status: pass
+  
+- summary: |
+      Проверка фильтрации по ключевому слову и категории одновременно
+    status: fail  
+    
+- summary: |
+      Поиск товара по категории
     status: pass
   
-  - summary: |
+- summary: |
       Проверка плейсхолдера если ничего не найдено в поиске
     status: pass
   
   - summary: |
       Поиск товара по категории
     status: pass
-  
-  - summary: |
+    
+- summary: |
       Проверка фильтрации по цене
     status: pass
-  
-  - summary: |
+    
+- summary: |
       Проверка фильтрации по бренду
     status: pass
-  
-  - summary: |
+    
+- summary: |
       Проверка открытия карточки товара
     status: pass
   
-  - summary: |
+- summary: |
       Проверка добавления товара в корзину
     status: pass
   
-  - summary: |
+- summary: |
       Проверка переключения страниц каталога
     status: pass
-  
-  - summary: |
+
+- summary: |
       Проверка смены локали на русскую
     status: pass
   
-  - summary: |
+- summary: |
       Проверка смены локали на английскую
     status: pass
 
