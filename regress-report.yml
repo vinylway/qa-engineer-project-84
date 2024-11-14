@@ -3,7 +3,7 @@ test-cases:
 
  - summary: |
       Поиск товара по ключевому слову
- status: fail
+ status: pass
  
   - summary: |
       Проверка добавления товара в корзину 
